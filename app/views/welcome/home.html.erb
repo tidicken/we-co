@@ -9,6 +9,11 @@
 <div><%= link_to image_tag('weandco.png', height: '100%', width: '100%'), users_path %></div>
 
 
-<h2 style = "text-align:center; color: #fe7600">Sign Up</h2>
+<!--<h2 style = "text-align:center; color: #fe7600">SIGN UP!</h2>
 
-<%= link_to 'SIGN UP', users_path(@user)  %> 
+<h2 style = "text-align:center; color: #fe7600">ADMIN</h2>-->
+
+<%= link_to 'SIGN UP!', users_path(@user), style: 'color: #fe7600' %><br>
+
+<%= link_to 'ADMIN', leads_path(@lead), style: 'color: #fe7600; text-align:center;' %>
+
